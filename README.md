@@ -1,2 +1,1 @@
-# ono-tebe-nado
-git@github.com:r-temir/ono-tebe-nado.git
+https://github.com/r-temir/ono-tebe-nado
