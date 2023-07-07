@@ -25,20 +25,21 @@
         </ul>
       </nav>
 
-      <a class="header__logo" href="">
+      <a class="header__logo">
         <img class="header__logo-image" src="./images/logo-black.svg" alt="логотип в виде надписи оно тебе надо"/>
       </a>
       <address class="address header__address">
         <a class="header__link" href="tel:+99999999">+9 999 555 5555</a>
         <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        наб. Принсенграхт 263-265,
-        <br/>
-        Амстердам
+        <p>наб. Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
     </header>
     <main>
       <section class="cover" id="cover">
         <div class="overlay"></div>
+        <!--С учетом "можно лучше", пытался сделать оверлей на псевдоклассе, 
+          но пока ничего не получилось. Буду пробовать еще.-->
         <h1 class="cover__title">
           <span class="aligned-text"
             >о<span class="letter-spacing-extended">н</span>о</span
@@ -57,15 +58,14 @@
           <h3 class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </h3>
-          <button class="bet-button">сделать ставку</button>
+          <button type="button" class="bet-button">сделать ставку</button>
         </div>
       </section>
       <section class="lots" id="lots">
         <h2 class="lots__heading">лоты</h2>
-
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -80,7 +80,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -98,7 +98,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link" href="#">
+            <a class="card-link" href="#0">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -114,9 +114,9 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link" href="#">посмотреть больше</a>
+        <a class="lots__look-more-link" href="#0">посмотреть больше</a>
       </section>
-      <section class="about" id="about">
+     <section class="about" id="about">
         <div class="about__logo">
           <img class="about__logo-image" src="./images/logo-white.svg" alt="логотип в виде надписи оно тебе надо">
         </div>
@@ -144,9 +144,8 @@
       <address class="address footer__adress">
         <a class="header__link" href="tel:+99999999">+9 999 555 5555</a>
         <a class="header__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-        наб. Принсенграхт 263-265,
-        <br />
-        Амстердам
+        <p>наб. Принсенграхт 263-265,</p>
+        <p>Амстердам</p>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
@@ -187,4 +186,7 @@
     чтобы сделать вот это вот все... Поэтому не ругай меня слишком уж сильно :-)
     
     С уважением,
-    твой будущий коллега (но это не точно:))     [signature]               rtemir-->
+    твой будущий коллега (но это не точно:))     [signature]               rtemir
+  
+    upd. исправлять ошибки было сложнее, но интереснее чем даже сама верстка, 
+    пока исправлял кое-чему научился. Спасибо за ревью! -->
