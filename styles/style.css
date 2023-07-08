@@ -61,6 +61,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24.3px;
+  max-width: 240px;
 }
 
 .header__address {
@@ -159,9 +160,6 @@ main {
   font-weight: 400;
   text-transform: uppercase;
 }
-/*Можно лучше
-с :hover, я вродебы разобрался, а вот с transition пока нет, 
-попрошу помочь наставников, но сначала постараюсь разобраться самостоятельно*/
 
 .bet-button:hover {
   color: #a1a1a1;
@@ -321,10 +319,7 @@ main {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 180px;
-  margin-bottom: 90px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 180px auto 90px;
   padding-right: 50px;
   padding-left: 50px;
 }
